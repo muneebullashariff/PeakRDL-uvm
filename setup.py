@@ -18,7 +18,7 @@ setuptools.setup(
     description="Generate UVM register model from compiled SystemRDL input",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/SystemRDL/RALBot-uvm",
+    url="https://github.com/SystemRDL/PeakRDL-uvm",
     packages=['ralbot.uvmgen'],
     include_package_data=True,
     python_requires='>=3.4',
@@ -42,7 +42,7 @@ setuptools.setup(
     ),
     project_urls={
         #"Documentation": "TBD",
-        "Source": "https://github.com/SystemRDL/RALBot-uvm",
-        "Tracker": "https://github.com/SystemRDL/RALBot-uvm/issues"
+        "Source": "https://github.com/SystemRDL/PeakRDL-uvm",
+        "Tracker": "https://github.com/SystemRDL/PeakRDL-uvm/issues"
     },
 )
