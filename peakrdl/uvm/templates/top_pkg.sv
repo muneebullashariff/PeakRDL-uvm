@@ -8,6 +8,9 @@
 package {{package_name}};
     `include "uvm_macros.svh"
     import uvm_pkg::*;
+    {%- if use_uvm_reg_enhanced %}
+    import uvm_reg_enhanced_pkg::*;
+    {%- endif %}
     {{ main.top()|indent}}
 endpackage: {{package_name}}
 
